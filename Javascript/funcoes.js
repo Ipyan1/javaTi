@@ -67,10 +67,37 @@ function tabuada(){
     }
 
     document.getElementById("resultado").innerHTML = "\n" + resNum1 + "\n\n" + resNum2;
-}//fim do método
+}//fim do metodo
 
-//Faça uma função para calcular a potência
+//Faca uma funcao para calcular a potencia
 
-//Faça uma função para calcular a raiz dos dois números
+function potencia(){
+    var num1;
+    var num2;
+
+    num1 = parseInt(document.getElementById("tpNum").value);
+    num2 = parseInt(document.getElementById("tsNum").value);
+
+    var resNum1 = "A potencia dos números é " + num1;
+    var resNum2 = "A potencia  dos números é " + num2;
+
+    document.getElementById ( )
+
+
+
+
+}// fim do método
+
+
+//Faça uma funçao para calcular a raiz dos dois números
+
 
 //Faça uma função para calcular a fórmula de bhaskara
+
+
+// Faça um programa que peça ao usuário um numero e 
+//imprima se é par ou impar
+
+
+// Faça um programa que peça ao usário um número e imprima
+// se é positivo, negativo ou zero
