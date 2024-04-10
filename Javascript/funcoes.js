@@ -146,13 +146,107 @@ function parImpar(){
     num2 = parseInt(document.getElementById("tsNum").value);
     num3 = parseInt(document.getElementById("ttnum").value);
     
+    if(num1 % 2 ==0){
+        res1="par";
+    }
+    else{
+        res1="impar";
+    }
+    if (num2 % 2 ==0){
+        res2="par";
+    }
+    else{
+        res2="impar";
+    }
+    if(num3 % 3==0){
+        res3="par";
+    }
+    else{
+        res3="impar";
+    }
+    document.getElementById("resultado").innerHTML= "\n + num1 + "=" + res1 +"
+                                                    "\n + num2 + "="+ res2 +" 
+                                                    "\n + num3 + "="+ res3";
+                                                    
+}//fim do método
+
+// Faça um programa que peça ao usário um número e imprima
+// se é positivo, negativo ou zero
+
+function ConceitoNumero(){
+    var num1;
+    var num2;
+    var num3;
+
+    num1= parseInt(document.getElementById("tpNum").value);
+    num2= parseInt(document.getElementById("tsNum").value);
+    num3= parseInt(document.getElementById("ttNum").value);
+
+    verificar (num1)
+
+    document.getElementById("resultado").innerHTML=
+            "\n + num1 +"="+ verificar(num1) + " 
+            "\n + num2 +"="+ verificar(num2) + "
+            "\n + num1 +"="+ verificar(num1) + " 
+
+    
+
+    
+    function (verificar num){
+    if (num>0){
+        return "Número Positivo"
+    }
+    else if (num<0){
+
+    }
+
+    }
+    }// fim do método
 
 
+//Exercicio 1 -Faça um programa que imprima os números de 1 a 10.
+function exercicio1(){
+    var num= [];
+    var res;
+
+    for( i=0; < 10; i++){
+        num[i] = i + 1;
+    }
+
+    document.getElementById("resultado").innerHTML= res;
+
+}//fim do método
+
+//Exercicio 2 - Faça um programa que imprima os números pares de 1 a 20.
+function exercicio2(){
+    var num= [];
+    var posicao;
 
 
 }//fim do método
 
+//Exercicio 3 - Faça um programa que calcule a soma dos números de 1 a 100.
+
+//Exercicio 4- Faça um programa que imprima os multiplos de 5 de 1 a 50.
+
+//Exercicio 5- Faça um programa que peça ao usuário um  número e imprima os números 
+//do 1 até esse número.
+
+//Exercicio 6 - Faça um programa que peça ao usúario um número e imprima a soma dos números
+// de 1 a até esse número.
+
+//Exercicio 7- Faça um programa que imprima os numeros primos de 1 a 20.
 
 
-// Faça um programa que peça ao usário um número e imprima
-// se é positivo, negativo ou zero
+
+
+
+
+
+
+
+
+
+
+
+
